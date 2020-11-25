@@ -7964,7 +7964,9 @@ jobs:
         export_default_credentials: true
     - name: PREPARE TERRAFORM SECRETS
       run: |
-        echo "${{ secrets.TERRAFORM_SSH_KEY }}" > id_rsa_terraform
+        mkdir terraform && chmod 777 terraform
+        echo "${{ secrets.TERRAFORM_SSH_KEY }}" > terraform/id_rsa_terraform
+        chmod +r terraform/id_rsa_terraform
     - name: RUN TESTS
       run: |
         gcloud auth configure-docker
@@ -7977,8 +7979,8 @@ jobs:
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
           --env AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} \
           --env AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} \
-          --env SSH_KEY=/workspace/id_rsa_terraform \
-          --volume ${PWD}/id_rsa_terraform:/workspace/id_rsa_terraform \
+          --env SSH_KEY=/workspace/terraform/id_rsa_terraform \
+          --volume ${PWD}/terraform:/workspace/terraform \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-22.3-rabbitmq-${{ github.sha }} \

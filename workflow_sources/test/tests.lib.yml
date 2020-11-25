@@ -20,7 +20,9 @@ steps:
   #@ if getattr(dep, 'use_terraform', False):
   - name: PREPARE TERRAFORM SECRETS
     run: |
-      echo "${{ secrets.TERRAFORM_SSH_KEY }}" > id_rsa_terraform
+      mkdir terraform && chmod 777 terraform
+      echo "${{ secrets.TERRAFORM_SSH_KEY }}" > terraform/id_rsa_terraform
+      chmod +r terraform/id_rsa_terraform
   #@ end
   - name: RUN TESTS
     run: |
@@ -50,8 +52,8 @@ steps:
 #@   if getattr(dep, 'use_terraform', False):
 #@     args = ["--env AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }}"]
 #@     args.append("--env AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }}")
-#@     args.append("--env SSH_KEY=/workspace/id_rsa_terraform")
-#@     args.append("--volume ${PWD}/id_rsa_terraform:/workspace/id_rsa_terraform")
+#@     args.append("--env SSH_KEY=/workspace/terraform/id_rsa_terraform")
+#@     args.append("--volume ${PWD}/terraform:/workspace/terraform")
 #@     return " \\\n  ".join(args)
 #@   else:
 #@     return ""
