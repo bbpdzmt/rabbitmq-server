@@ -260,6 +260,7 @@ deps:
 
 - name: rabbitmq_peer_discovery_aws
   skip_dialyzer: true
+  use_terraform: true
   suites:
   - name: config_schema
   - name: integration

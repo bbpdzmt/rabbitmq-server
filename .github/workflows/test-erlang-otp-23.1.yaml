@@ -687,6 +687,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4004,6 +4005,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4039,6 +4041,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4074,6 +4077,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4109,6 +4113,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4144,6 +4149,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4179,6 +4185,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4214,6 +4221,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4249,6 +4257,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4284,6 +4293,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4319,6 +4329,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4388,6 +4399,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4423,6 +4435,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4458,6 +4471,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4493,6 +4507,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4528,6 +4543,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4563,6 +4579,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4598,6 +4615,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4633,6 +4651,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4668,6 +4687,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4693,6 +4713,9 @@ jobs:
       with:
         service_account_key: ${{ secrets.GCR_JSON_KEY }}
         export_default_credentials: true
+    - name: PREPARE TERRAFORM SECRETS
+      run: |
+        echo "${{ secrets.TERRAFORM_SSH_KEY }}" > id_rsa_terraform
     - name: RUN TESTS
       run: |
         gcloud auth configure-docker
@@ -4703,6 +4726,10 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+          --env AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} \
+          --env AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} \
+          --env SSH_KEY=/workspace/id_rsa_terraform \
+          --volume ${PWD}/id_rsa_terraform:/workspace/id_rsa_terraform \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4738,6 +4765,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4773,6 +4801,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4808,6 +4837,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4843,6 +4873,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4878,6 +4909,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4913,6 +4945,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4948,6 +4981,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -4983,6 +5017,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -5018,6 +5053,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -5053,6 +5089,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -5088,6 +5125,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -5123,6 +5161,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -5158,6 +5197,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -5193,6 +5233,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -5228,6 +5269,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -5263,6 +5305,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -5298,6 +5341,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -5333,6 +5377,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
@@ -5368,6 +5413,7 @@ jobs:
           --env GITHUB_RUN_ID=${{ github.run_id }} \
           --env BUILDEVENT_APIKEY=${{ secrets.HONEYCOMB_API_KEY }} \
           --env STEP_START=${{ steps.buildevents.outputs.step_start }} \
+           \
           --volume ${PWD}/ct-logs:/workspace/ct-logs \
           --oom-kill-disable \
           eu.gcr.io/cf-rabbitmq-core/ci:erlang-23.1-rabbitmq-${{ github.sha }} \
